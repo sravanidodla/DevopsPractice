@@ -1,0 +1,12 @@
+[all]
+18.222.194.138
+18.189.28.198
+localhost	ansible_connection=local
+
+[webserver1]
+18.222.194.138
+
+[webserver2]
+18.189.28.198
+
+

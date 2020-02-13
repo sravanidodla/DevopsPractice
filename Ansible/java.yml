@@ -1,0 +1,11 @@
+---
+- name: install java on EC2 hosts
+  hosts: webserver1
+  become: True
+  tasks:
+  - name: Install java-openjdk
+    yum:
+     name: java-1.8.0-openjdk
+     state: present
+
+
